@@ -1,0 +1,36 @@
+name: ${project.artifactId}
+main: ${project.groupId}.${project.artifactId}.${project.artifactId}
+version: ${project.version}
+author: khjxiaogu
+softdepend: [PlaceholderAPI]
+commands:
+  points: 
+    aliases: mps
+    description: 点数插件命令
+    permission: ${project.artifactId}.default
+    usage: /mps
+permissions: 
+  ${project.artifactId}.default:
+   description: 使用点数插件的权限
+   default: true
+  ${project.artifactId}.modify:
+   description: 修改点数插件的权限
+   default: op
+  ${project.artifactId}.debug:
+   description: 重载点数插件的权限
+   default: op
+  ${project.artifactId}.pay:
+   description: 支付所有点数的权限
+   default: op
+  ${project.artifactId}.top:
+   description: 查看点数排序的权限
+   default: op
+  ${project.artifactId}.<点数ID>.pay:
+   description: 支付特定点数的权限
+   default: op
+  ${project.artifactId}.<点数ID>.modify:
+   description: 修改特定点数的权限
+   default: op
+  ${project.artifactId}.<点数ID>.top:
+   description: 查看特定点数排序的权限
+   default: op
