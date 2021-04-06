@@ -61,7 +61,6 @@ public class JarWatcher extends Thread {
 					}
 				} catch (Throwable e) {
 					// TODO Auto-generated catch block
-					e.printStackTrace();
 					continue;
 				}
 
