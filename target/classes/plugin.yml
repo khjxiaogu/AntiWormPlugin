@@ -1,6 +1,6 @@
 name: AAAntiWorm
 main: com.khjxiaogu.AAAntiWorm.AAAntiWorm
-version: 0.0.1-SNAPSHOT
+version: 0.1
 author: khjxiaogu
 softdepend: [PlaceholderAPI]
 commands:
