@@ -27,5 +27,10 @@ public class AAAntiWorm extends JavaPlugin{
 		}
         
 	}
+
+	@Override
+	public void onLoad() {
+		getLogger().info("Basic AntiWorm By Github@khjxiaogu/khjxiaogu@qq.com");
+	}
 	
 }
